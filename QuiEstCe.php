@@ -18,7 +18,7 @@
 
         <tr>
             <td><img src="images/0100101.jpg"><center>0100101</center></td>
-            <td><img src="images/0001010.jpg"><center>0001010</center></td>
+            <td><img src="images/0101010.jpg"><center>0101010</center></td>
             <td><img src="images/0110110.jpg"><center>0110110</center></td>
             <td><img src="images/0111001.jpg"><center>0111001</center></td>
         </tr>
@@ -27,7 +27,7 @@
             <td><img src="images/1000110.jpg"><center>1000110</center></td>
             <td><img src="images/1001001.jpg"><center>1001001</center></td>
             <td><img src="images/1010101.jpg"><center>1010101</center></td>
-            <td><img src="images/0011010.jpg"><center>0011010</center></td>
+            <td><img src="images/1011010.jpg"><center>1011010</center></td>
         </tr>
 
         <tr>
