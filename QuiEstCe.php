@@ -8,7 +8,7 @@
     <body>
 
     <table align="bottom" border=1>
-      
+      <table>
         <tr>
             <td><img src="images/0000000.jpg"><center>0000000</center></td>
             <td><img src="images/0001111.jpg"><center>0001111</center></td>
@@ -18,7 +18,7 @@
 
         <tr>
             <td><img src="images/0100101.jpg"><center>0100101</center></td>
-            <td><img src="images/0101010.jpg"><center>0101010</center></td>
+            <td><img src="images/0001010.jpg"><center>0001010</center></td>
             <td><img src="images/0110110.jpg"><center>0110110</center></td>
             <td><img src="images/0111001.jpg"><center>0111001</center></td>
         </tr>
@@ -27,7 +27,7 @@
             <td><img src="images/1000110.jpg"><center>1000110</center></td>
             <td><img src="images/1001001.jpg"><center>1001001</center></td>
             <td><img src="images/1010101.jpg"><center>1010101</center></td>
-            <td><img src="images/1011010.jpg"><center>1011010</center></td>
+            <td><img src="images/0011010.jpg"><center>0011010</center></td>
         </tr>
 
         <tr>
@@ -36,7 +36,7 @@
             <td><img src="images/1110000.jpg"><center>1110000</center></td>
             <td><img src="images/1111111.jpg"><center>1111111</center></td>
         </tr>
-      
+      </table>
         <form method="post" action="quiestce.php">
 
         <tr>
@@ -75,11 +75,11 @@
             <?php
 
           $s1 = $_POST['q1'] + $_POST['q3'] + $_POST['q5'] + $_POST['q7'];
-          $s1 = $s1 % 2;
+
           $s2 = $_POST['q2'] + $_POST['q3'] + $_POST['q5'] + $_POST['q6'];
-          $s2 = $s2 % 2;
+
           $s3 = $_POST['q4'] + $_POST['q5'] + $_POST['q6'] + $_POST['q7'];
-          $s3 = $s3 % 2;
+
 
 
           if ($_POST["Reponse"]) {
@@ -142,7 +142,9 @@
           $perso = $_POST['q1'] . $_POST['q2'] . $_POST['q3'] . $_POST['q4'] . $_POST['q5'] . $_POST['q6'] . $_POST['q7'];
 
           if ($_POST["Reponse"]) {
-            echo 'Vous avez choisi : ' . $perso;
+            echo 'Vous avez choisi : ' . $perso; 
+            echo '<img src= http://btsio.org/2022/lafossem/quiestce/images/' . $perso . '.jpg alt=personnage>';
+
           }
           ?>
         </tr>
